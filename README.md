@@ -16,7 +16,7 @@ In octomap `deleteNode` leaks memory. This small repo recreates the issue and ve
 ```
 mkdir build
 cd build
-cmake ../
+cmake -DCMAKE_BUILD_TYPE=Debug ../
 make
 ```
 
